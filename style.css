@@ -1,0 +1,229 @@
+/* BASIC RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  background: #0b1b3b url("https://www.transparenttextures.com/patterns/stardust.png");
+  color: #000;
+}
+
+/* TOP BAR */
+
+.top-bar {
+  background: #003399;
+  color: #fff;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #ff9900;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.logo span {
+  color: #ff9900;
+}
+
+.top-nav {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  font-size: 13px;
+}
+
+.top-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+.login-status {
+  font-size: 12px;
+}
+
+/* PAGE LAYOUT */
+
+.page-wrapper {
+  width: 900px;
+  margin: 16px auto;
+  background: #ffffff;
+  padding: 12px;
+  border: 1px solid #999;
+}
+
+/* Using 3-column layout */
+
+.column {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left-col {
+  width: 25%;
+  padding-right: 8px;
+}
+
+.main-col {
+  width: 45%;
+  padding: 0 8px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.right-col {
+  width: 25%;
+  padding-left: 8px;
+}
+
+/* BOXES */
+
+.profile-box,
+.contact-box,
+.music-box,
+.box,
+.about-section,
+.headline-box {
+  border: 1px solid #999;
+  padding: 8px;
+  margin-bottom: 10px;
+  background: #f5f5ff;
+}
+
+.profile-box h2 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.tagline {
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.profile-pic {
+  display: block;
+  border: 3px solid #000;
+  margin-bottom: 8px;
+}
+
+.profile-info {
+  list-style: none;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.contact-box h3,
+.music-box h3,
+.box h3,
+.about-section h2 {
+  font-size: 13px;
+  background: #003399;
+  color: #fff;
+  padding: 2px 4px;
+  margin: -8px -8px 6px -8px;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.contact-buttons button {
+  font-size: 10px;
+  padding: 3px 6px;
+  border: 1px solid #666;
+  background: #e0e0ff;
+  cursor: pointer;
+}
+
+.contact-buttons button:hover {
+  background: #d0d0ff;
+}
+
+.music-caption {
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+/* HEADLINE + MAIN CONTENT */
+
+.headline-box h1 {
+  font-size: 16px;
+  color: #003399;
+}
+
+.about-section p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.list {
+  list-style: square inside;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+/* TOP 8 STYLE */
+
+.top-eight {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.top-card {
+  width: 45%;
+  text-align: center;
+  font-size: 11px;
+}
+
+.top-pic {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 4px;
+  background: url("https://via.placeholder.com/80x80") center/cover no-repeat;
+  border: 2px solid #000;
+}
+
+/* LINKS */
+
+.links {
+  list-style: none;
+  font-size: 12px;
+}
+
+.links li {
+  margin-bottom: 4px;
+}
+
+.links a {
+  color: #003399;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 900px;
+  margin: 0 auto 30px;
+  text-align: center;
+  font-size: 11px;
+  color: #ccc;
+}
